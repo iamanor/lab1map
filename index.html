@@ -30,8 +30,10 @@
             }).addTo(map);
     var marker1 = L.marker([41.98,-87.72]).addTo(map); 
     var marker2 = L.marker([30.44,-84.3]).addTo(map);
-marker1.bindPopup("work at NEIU");
-marker2.bindPopup("went to FSU for graduate school");
+var pic1 = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/NEIU_Sci.jpg" alt="Bernard Brommel Hall at NEIU" width="250">';
+var pic2 = '<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/FSUWestcottBuilding-2.jpg" alt="Westcott Building at FSU" width="250">';
+marker1.bindPopup(pic1);
+marker2.bindPopup(pic2);
         </script>  
    </body>
 </html>
